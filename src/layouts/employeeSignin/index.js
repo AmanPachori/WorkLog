@@ -21,7 +21,8 @@ import BasicLayout from "layouts/authentication/components/BasicLayout";
 import bgImage from "assets/images/bg-sign-in-basic.jpeg";
 
 function Basic() {
-  const url = "http://localhost:8000";
+  const url = "https://work-log-backend.herokuapp.com";
+
   const [email, setemail] = useState('')
   const [password, setpassword] = useState('');
    
