@@ -31,7 +31,8 @@ import { fontWeight } from '@mui/system';
 import Icon from "@mui/material/Icon";
 
 
-const url = "http://localhost:8000";
+const url = "https://work-log-backend.herokuapp.com";
+
 const token = localStorage.getItem('jwt');
 
 
