@@ -14,7 +14,8 @@ import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
 
-const url = "http://localhost:8000";
+const url = "https://work-log-backend.herokuapp.com";
+
 const token = localStorage.getItem("jwt");
 
 function Overview() {
