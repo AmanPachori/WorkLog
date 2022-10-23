@@ -39,8 +39,7 @@ function Overview() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const token = localStorage.getItem("jwt");
-  const url = "http://localhost:8000";
-  console.log(staus)
+  const url = "https://work-log-backend.herokuapp.com";  console.log(staus)
   var array = [];
   var work =[];
   var Break = [];
@@ -374,7 +373,8 @@ function Overview() {
       </div>
     );
   } else {
-    return <div>Please login</div>;
+    return( window.location = '/employeeSignin'
+    )
   }
 }
 

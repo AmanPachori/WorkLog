@@ -2,18 +2,10 @@ import React, { useState, useEffect } from "react";
 import  {useParams} from "react-router-dom";
 import axios from "axios";
 import DatePicker from "react-datepicker";
-
 import { BallTriangle } from "react-loader-spinner";
-// Material Dashboard 2 React components
 import MDBox from "components/MDBox";
 import MDTypography from "components/MDTypography";
-import MDButton from "components/MDButton";
-import MDInput from "components/MDInput";
-import { Form } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
-// Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 import Footer from "examples/Footer";
@@ -268,7 +260,8 @@ function Overview() {
       </div>
     );
   } else {
-    return <div>Please login</div>;
+    return( window.location = '/employeeSignin'
+    )
   }
 }
 

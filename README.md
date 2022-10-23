@@ -1,12 +1,33 @@
 <div align ="center">
 
 # Work Log
+This website is built for employers or managers who can keep a check on their employee's work everyday
 
 
 </div>
 
-![Screenshot](https://user-images.githubusercontent.com/84467090/194913129-83367c2d-8fd4-499d-b37a-a4e838e2cf1c.png)
-![Screenshot](https://user-images.githubusercontent.com/84467090/194913706-42fce833-1600-4dd3-b0ec-d3bb58628736.png)
+![Screenshot](https://user-images.githubusercontent.com/84467090/197374607-99b4983b-64f6-42bf-8de5-1a5d4551b971.png)
+![Screenshot](https://user-images.githubusercontent.com/84467090/197374623-f4ab1a0b-7e6f-40be-9d01-b6da40861488.png)
+
+<div align ="center">
+
+# Features
+</div>
+
+### Employee
+1. Employees can add tasks for the day or the past days  
+2. Employees can also view their weekly tasks report.
+
+### Admin
+
+1. Admin can add employees and other admin.
+2. Admin can monitor the weekly progress of employee
+3. Admin can activate or deactivate the employee account from the dashboard directly
+
+<!-- <div align ="center">
+
+# Tech Stack
+</div> -->
 
 ## Get started
 
@@ -15,17 +36,3 @@
 3. Open the folder in which you cloned the repository.
 4. Run `npm install`.
 5. Run `npm start`.
-
-## Employee Feature
-
-1. Employee can add his daily task 
-2. He can also veiw his weekly task
-3. Emplyoee emai - emplyoee@email.com
-4. password -123456789
-
-## Admin Feature
-
-1. Admin can employees  and other admin.
-2. Admin can moniter the weekly progress of employee
-3. Admin Email - Admin@email.com
-4. password - 12345678

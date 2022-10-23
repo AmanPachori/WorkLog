@@ -1,33 +1,11 @@
-import Modal from 'react-bootstrap/Modal';
-import { Link } from "react-router-dom";
-
 import React, { useState,useEffect } from 'react';
-import Grid from "@mui/material/Grid";
-import Divider from "@mui/material/Divider";
-import ReactFileReader from 'react-file-reader';
 import axios from 'axios';
 import Table from 'react-bootstrap/Table';
-
-import {Form} from 'react-bootstrap'
 import { BallTriangle } from 'react-loader-spinner';
-// Material Dashboard 2 React components
-import MDBox from "components/MDBox";
-import MDTypography from "components/MDTypography";
-import MDButton from "components/MDButton";
-import MDInput from "components/MDInput";
 import {Container,Row,Col} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-
-import Card from "@mui/material/Card";
-import CoverLayout from "layouts/authentication/components/CoverLayout";
-
-// Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
-import { Check, ConstructionOutlined, DeleteSweep } from '@mui/icons-material';
-import { fontWeight } from '@mui/system';
 import Icon from "@mui/material/Icon";
 
 
@@ -158,9 +136,8 @@ const fetchdata = ()=>{
         )
     }
     else{
-        return(
-              <div>Please login</div>
-        )
+      return( window.location = '/employeeSignin'
+      )
   }
 }
 

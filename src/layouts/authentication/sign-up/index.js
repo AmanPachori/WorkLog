@@ -83,7 +83,7 @@ const url = "https://work-log-backend.herokuapp.com";
             textAlign="center"
           >
             <MDTypography display="block" variant="button" color="white" my={1}>
-              Enter your email and password to Add Admin
+             Add Admin
             </MDTypography>
           </MDBox>
           <MDBox pt={4} pb={3} px={3}>
@@ -113,8 +113,7 @@ const url = "https://work-log-backend.herokuapp.com";
     );
   }
   else{
-    return(
-      <div>Please login</div>
+    return( window.location = '/employeeSignin'
     )
   }
 }
