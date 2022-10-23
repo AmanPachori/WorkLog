@@ -24,12 +24,22 @@ This website is built for employers or managers who can keep a check on their em
 2. Admin can monitor the weekly progress of employee
 3. Admin can activate or deactivate the employee account from the dashboard directly
 
-<!-- <div align ="center">
+<div align ="center">
 
 # Tech Stack
-</div> -->
+</div>
+<div align ="center">
+<img src="https://img.icons8.com/plasticine/65/000000/react.png"/>
+<img src="https://img.icons8.com/color/65/000000/html-5--v1.png"/>
+<img src="https://img.icons8.com/color/65/000000/material-ui.png"/>
 
-## Get started
+</div>
+
+<div align='center' >
+
+## Local Setup
+
+</div>
 
 1. Fork the repository.
 2. Clone the repository (`git clone URL`).
